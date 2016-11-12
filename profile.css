@@ -1,14 +1,5 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
-
-html {  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-
 body {
   background: url("core/worldmap.jpg") no-repeat center center fixed;
   background-color:black;

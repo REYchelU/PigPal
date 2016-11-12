@@ -1,9 +1,8 @@
 body {
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 40px;
-  background: url("core/eiffel.jpg");
+  background: url("core/eiffel.jpg") no-repeat bottom left fixed;
   background-color:black;
-  /*font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   color: white;
 }
 

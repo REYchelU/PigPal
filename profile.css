@@ -17,6 +17,11 @@ body {
   font-weight: 700
 }
 
+.navbar brand > header-logo {
+  width:32px;
+  float: right;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;

@@ -13,6 +13,12 @@ body {
   border-color: rgba(240,95,64,1);
   font-weight: 700
 }
+.navbar brand > header-logo {
+  width:32px;
+  float: right;
+  z-index: 10;
+
+}
 
 @media (min-width: 768px) {
   .container {

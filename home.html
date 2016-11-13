@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +14,6 @@
 
     <!-- Bootstrap core CSS -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href="core/css/bootstrap.min.css" rel="stylesheet">
     <link href="core/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -31,55 +32,99 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Flying Pig</a>
+          <a class="navbar-brand" href="#">
+            <!-- <div id = "header-logo">
+              <img class="img-scaled" src="core/ico/favicon.ico">
+            </div> -->
+            <div id = "header-title">
+              FLYING PIG
+            </div>
+          </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-            <li><a href="login.html">Login / Sign Up</a></li>
+            <li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+            <li><a href="login.html">LOGIN / SIGNUP</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1><img src="core/pig.png">🐷 Saving made simple 🐷</h1>
-        <p>Always wanted to explore the world, but never have the money to do so?
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+
+      <!-- slide 1 -->
+        <div class="item active">
+          <img src="core/eiffel.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="sansserif">SAVING MADE SIMPLE</h1>
+              <p class="sansserif">Always wanted to explore the world, but never ha the money to do so?
           Use Flying Pig. Sign up, connect your savings account, and start spending. Every time you purchase something, you also reroute some funds to your account. It's saving made simple.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div> 
+        <!-- end slide 1 -->
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Travel</h2>
-          <p>Have trouble saving money for a vacation? Whenever you make a purchase, round the amount spent up to the nearest dollar. The excess goes straight to your savings account. Set a goal so that you can keep track of your progress. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="item">
+          <img src="core/venice.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>TRAVEL</h1>
+              <p>Have trouble saving money for a vacation? Whenever you make a purchase, round the amount spent up to the nearest dollar. The excess goes straight to your savings account. Set a goal so that you can keep track of your progress.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h2>Charity</h2>
-          <p> Add your favorite charitable organization instead to send a small donation their way every time you make a purchase. Keep track of how much you've sent to each organization. Redirect your funds tyo another charity whenever you please.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-       <div class="col-md-4">
-          <h2>Everything else</h2>
-          <p> Been eyeing that new car for a while? Want to move, but can't afford it yet? Or maybe you want to just treat yourself to a day at the spa? With Flying Pig, any goal is within your reach.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
+
+        <div class="item">
+          <img src="core/worldmap.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>CHARITY</h1>
+              <p>Add your favorite charitable organization instead to send a small donation their way every time you make a purchase. Keep track of how much you've sent to each organization. Redirect your funds to another charity whenever you please.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+<!-- 
+        <div class="item">
+         
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Everything else</h1>
+              <p>Been eyeing that new car for a while? Want to move, but can't afford it yet? Or maybe you want to just treat yourself to a day at the spa? With Flying Pig, any goal is within your reach.
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+ -->
+        <!-- <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Everything else</h1>
+                <p>Been eyeing that new car for a while? Want to move, but can't afford it yet? Or maybe you want to just treat yourself to a day at the spa? With Flying Pig, any goal is within your reach.<p>
+                <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div> -->
+
       </div>
-
-      <hr>
-
-      <footer>
-        <p><center>&copy; Company 2014</center></p>
-      </footer>
-    </div> <!-- /container -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
 
 
     <!-- Bootstrap core JavaScript
@@ -87,5 +132,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="core/js/bootstrap.min.js"></script>
+    <script src="core/js/docs.min.js"></script>
   </body>
 </html>

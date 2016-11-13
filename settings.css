@@ -5,6 +5,9 @@ body {
   background: url("core/eiffel.jpg") no-repeat bottom left fixed;
   background-color: black;
   color: white;
+
+  font: 13px/18px 'Open Sans','Helvetica Neue',Arial,sans-serif;
+
 }
 
 @media (min-width: 768px) {

@@ -4,6 +4,14 @@ body {
   background: url("core/eiffel.jpg") no-repeat bottom left fixed;
   background-color:black;
   color: white;
+
+  font: 13px/18px 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.navbar { /*#f05f40*/
+  background-color: rgba(240,95,64,1);
+  border-color: rgba(240,95,64,1);
+  font-weight: 700
 }
 
 @media (min-width: 768px) {

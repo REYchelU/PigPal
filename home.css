@@ -15,10 +15,9 @@ body {
   font-weight: 700
 }
 
-/*.navbar brand > header-logo {
-  width:32px;
-  float: right;
-}*/
+.pigski{
+  padding-top: 5px;
+}
 
 /*@media (min-width: 768px) {
   .container {

@@ -10,6 +10,12 @@ body {
 
 }
 
+.navbar { /*#f05f40*/
+  background-color: rgba(240,95,64,1);
+  border-color: rgba(240,95,64,1);
+  font-weight: 700
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;

@@ -1,6 +1,8 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 body {
+  padding-top: 100px;
+  padding-bottom: 40px;
   background: url("core/worldmap.jpg") no-repeat center center fixed;
   background-color:black;
   color: white;

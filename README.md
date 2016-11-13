@@ -1,2 +1,2 @@
-# Flying-Pig
+# PigPal
 money saver web app

@@ -227,14 +227,14 @@
 			<select name="flights" id="list-of-flights"><option>=== Choose Flight ===</option></select>
 
 			<h3>9. Confirm your flight</h3>
-			<button>Confirm Flight</button>
+	          <div><p><a class="btn btn-lg btn-primary" href="#" role="button">Confirm Flight</a></p>
 		</form>
 		</div>
 		{% elif goal.type == "Charity" %}
 
 		<div class="container">
 		<form action="/plan/charity" method="POST">
-			<h2>Great job on completing your goal to save ${{ goal.amount }} for charity. With Flying Pigs, you can start giving today!</h2>
+			<h2>Great job on completing your goal to save ${{ goal.amount }} for charity. With PigPal, you can start giving today!</h2>
 
 			<h3>1. Select a charity from the list</h3>
 			<div class="charity">
@@ -289,7 +289,7 @@
 			<h3>3. Choose an amount of money that you would like to donate.</h3>
 			$<input type="text" name="amount" value="{{ goal.amount }}">
 			<h3>4. Press 'Donate'!</h3>
-			<button>Donate</button>
+	          <div><p><a class="btn btn-lg btn-primary" href="#" role="button">Donate</a></p>
 			<h3>It's that easy! Thank you for your philanthropy!</h3>
 		</form>
 		</div>

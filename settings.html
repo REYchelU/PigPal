@@ -57,12 +57,48 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>ACCOUNT</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibusortaamet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <div class="container">
+            <h2>ACCOUNTS</h2>
+            <p>You can manage your connected savings accounts here:</p>           
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Bank</th>
+                  <th>Account #</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="radio" name="account" value="1">&nbsp;</td>
+                  <td>Wells Fargo</td>
+                  <td>Doe</td>
+                  <td>1234123412341234</td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="account" value="2">&nbsp;</td>
+                  <td>Bank of America</td>
+                  <td>Moe</td>
+                  <td>7897897897897897</td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="account" value="3">&nbsp;</td>
+                  <td>July</td>
+                  <td>Dooley</td>
+                  <td>3141592658276345</td>
+                </tr>
+              </tbody>
+            </table>
+
+          <div><p><a class="btn btn-default" href="#" role="button">Set as default &raquo;</a>  <a class="btn btn-default" href="#" role="button">Delete account &raquo;</a></p></div>
+
+
+          </div>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
+        <div>
+
+          <h2 class="row"></h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>

@@ -1,14 +1,15 @@
 body {
   padding-top: 100px;
   padding-bottom: 40px;
-  background: url("core/eiffel.jpg") no-repeat center left fixed;
+  background: url("core/sky.jpg") no-repeat center left fixed;
   background-color:black;
+  background-size: 100%;
   color: white;
 
   font: 13px/18px 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
-.navbar { /*#f05f40*/
+.navbar {
   background-color: rgba(240,95,64,1);
   border-color: rgba(240,95,64,1);
   font-weight: 700

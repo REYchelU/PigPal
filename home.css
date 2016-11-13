@@ -30,7 +30,7 @@ body {
 }
 .carousel {
   height: 750px;
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
 
 /* Declare heights because of positioning of img element */
@@ -43,7 +43,30 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  /*height: 500px;*/
+  overflow: hidden;
+}
+
+#carousel-img-1 {
+  transform: translate(0, -300px);
+}
+
+#carousel-img-2 {
+  transform: translate(0, -350px);
+}
+
+#carousel-img-3 {
+  transform: translate(0, -200px);
+}
+
+
+
+.carousel-caption {
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .glyphs
